@@ -1,0 +1,2 @@
+// Implement an algorithm using C++ to determine if a given letter is capitalized or not. 
+// This algorithm should have two possible outputs, "Upper Case" if a letter is capital, "Lower Case" otherwise.
