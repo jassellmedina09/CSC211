@@ -1,0 +1,85 @@
+Question 1:
+-----------
+#include <iostream> 
+
+void square(int* a);
+
+int main()
+{
+	int num = 5;
+
+	square(&num);
+	std::cout << num << std::endl;
+    return 0;
+}
+
+void square(int* a) {
+	*a = (*a) * (*a);
+}
+
+Question 2:
+-----------
+#include <iostream>
+using namespace std;
+
+void countEven(int foo[5],int* a);
+
+int main()
+{
+    int nums[] = {1,2,3,4,5};
+    int count = 0;
+    int* x = &count;
+
+
+countEven(nums, x);
+
+cout<< *x << endl;
+return 0;
+}
+
+void countEven(int foo[5], int* a) 
+{
+    *a = 0;
+    for (int i = 0; i < 5; ++i)
+    {
+        if (foo[i] % 2 == 0){
+            (*a)++;
+        }
+    }
+}
+
+Question 3:
+-----------
+The code outputs 35. Essentially, it's taking the value of the array at postion 2 (which is 15)
+and storing it in pointer x. Then pointer takes that position of x and moves up one position which
+is 3 (so, 20). Then it takes those pointer values and adds them. 15 + 20 = 35
+
+Question 4:
+-----------
+
+The code outputs 
+1: a=21, b=12
+2: a=21, b=22
+3: a=1, b=3
+
+It's just taking in initial values and manipulating them by passing different values, which changes the pointers. 
+
+Question 5:
+-----------
+
+void fillArray(int arr[][arrSize]) {
+	for (int i = 0; i < arrSize; i++) {
+		for (int j = 0; j < arrSize; j++) {
+			arr[i][j] = (i + 1) * (j + 1);
+		}
+	}
+}
+
+
+Question 7:
+-----------
+It releases the memory allocated for arrays of elements using new and a size in brackets ([]).
+
+Question 9:
+-----------
+
