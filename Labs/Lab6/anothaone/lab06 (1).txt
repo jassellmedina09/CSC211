@@ -1,0 +1,48 @@
+Question 1:
+-----------
+We can store a string at position 9 because 10 is reserved for the null terminator, which is /0.
+
+Question 2:
+-----------
+the largest size string we could store is size 10.
+
+Question 3:
+-----------
+If a tring has no null terminator, it will not work correctctly and can cause bugs.
+
+Question 4:
+-----------
+the copy() function copies a sequence of characters from a string. 
+it takes in three parameters, which are:
+s, which is pointer to array
+len, the number of characters to copy
+pos, the position of the first character to copy. aka where to start.
+
+
+
+Question 5:
+-----------
+the swap() function swaps string values. You would simply take the name of your string and stick a .swap() at the end.
+Inside the swap parameters goes string name you want to replace. 
+for example: 
+std::string face ("sunnies"); // declare strings names and values
+std::string waist ("belts");
+
+std:: cout << "in summer, kids love to wear" << face;
+std:: cout << "but hate " << waist << '\n';
+
+// swapping here
+face.swap(waist)
+
+and making an output statement the same as the old one would output
+that kids love wearing belts in the summer but hate sunnies. 
+
+Question 6:
+-----------
+The insert() function inserts additional characyers into  astring 
+right before the characyer indicated by pos. 
+It has multiple versions because of the C++ updates in the past.
+
+It can take the parameters of:
+pos, str, subpos, sublen, s, n, c, p, (first, last), and il. 
+
