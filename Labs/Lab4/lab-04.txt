@@ -1,0 +1,28 @@
+Question 1:
+------------------
+To get the program to print 10, you can add an if statement.
+if i = 10, cout i. 
+
+Question 2:
+------------------
+You could format an infinite loop by using a while loop. (or for)
+
+Question 3:
+------------------
+Problem with the incrementation (i). Instead of --i, ++i to make the loop continue.
+
+Question 4:
+------------------
+Maybe the first if statement should be a else if. 
+
+Question 5:
+------------------
+the output line could go below the if statement, but I think it looks good.
+
+Question 6:
+----------------
+The output should go in curly brackets in the if (i == 10) because its just getting repeatted twice when its already been written.
+
+Question 7:
+------------------
+
