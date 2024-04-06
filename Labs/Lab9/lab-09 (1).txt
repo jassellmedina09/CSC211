@@ -1,0 +1,37 @@
+Question 1:
+-----------
+When the stack grows, old ones start to drown out as the new ones are pushed in. 
+
+Question 2:
+-----------
+When the stack shrinks, the program keeps running. 
+
+Question 3:
+-----------
+foo(6) calls- foo(3) calls- foo(2) calls- foo(1) calls- foo(1)
+
+Question 3:
+-----------
+After three recursive calls, the stack is:
+fact(3) top
+fact(4)
+fact(5) bottom
+
+
+Question 4:
+-----------
+sum_digits(123) - sum_digits(1234) - sum_digits(12345)
+top -> bottom
+
+Question 5:
+-----------
+tacocat ends up at the bottom of the stack. Top of stack is acoca. 
+
+
+Question 6:
+-----------
+After 3 recursive calls the stack is:
+([3,4,5,6,2],5) top of stack 
+([2,3,4,5,6,2],6)
+([3,4,5,6,2],5)
+([1,2,3,4,5,6,2],7) bottom of stack 
